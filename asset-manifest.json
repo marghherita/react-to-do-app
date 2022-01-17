@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/marghherita/react-to-do-app/static/css/main.27cf78e0.css",
-    "main.js": "/marghherita/react-to-do-app/static/js/main.02453a5e.js",
-    "static/js/787.599fed49.chunk.js": "/marghherita/react-to-do-app/static/js/787.599fed49.chunk.js",
+    "main.js": "/marghherita/react-to-do-app/static/js/main.4141c1d5.js",
+    "static/js/787.86c63a9f.chunk.js": "/marghherita/react-to-do-app/static/js/787.86c63a9f.chunk.js",
     "index.html": "/marghherita/react-to-do-app/index.html",
     "main.27cf78e0.css.map": "/marghherita/react-to-do-app/static/css/main.27cf78e0.css.map",
-    "main.02453a5e.js.map": "/marghherita/react-to-do-app/static/js/main.02453a5e.js.map",
-    "787.599fed49.chunk.js.map": "/marghherita/react-to-do-app/static/js/787.599fed49.chunk.js.map"
+    "main.4141c1d5.js.map": "/marghherita/react-to-do-app/static/js/main.4141c1d5.js.map",
+    "787.86c63a9f.chunk.js.map": "/marghherita/react-to-do-app/static/js/787.86c63a9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27cf78e0.css",
-    "static/js/main.02453a5e.js"
+    "static/js/main.4141c1d5.js"
   ]
 }
