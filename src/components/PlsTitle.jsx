@@ -28,7 +28,7 @@ const PlsTitle = () => {
   return (
     <div>
       <div className="center">
-        <h2 ref={Ref}></h2>
+        <h2 ref={Ref}>To Do List</h2>
       </div>
 
       <form onSubmit={submitTitleHandler}>

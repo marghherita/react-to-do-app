@@ -12,8 +12,6 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
   const [filteredTodos, setFilteredTodos] = useState([]);
-  const [inputTitle, setInputTitle] = useState("");
-  const [title, setTitle] = useState("")
 
   //RUN ONCE when the app start
   useEffect(() => {
