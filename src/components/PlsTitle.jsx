@@ -6,8 +6,12 @@ const initialState = { title: "" };
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case "change-name":
+    case "change_name":
       return { ...state, [action.payload.field]: action.payload.value };
+
+    case "reset_value":
+      return { ...state, [action.payload.field]: action.payload.value };
+
     default:
       return state;
   }
@@ -23,6 +27,7 @@ const PlsTitle = () => {
 
     Ref.current.innerText = `${state.title}`;
 
+    dispatch({ type: "reset_value", payload: { value: "", field: "title" } })
   };
 
   return (
@@ -36,7 +41,7 @@ const PlsTitle = () => {
           value={state.title}
           onChange={(e) =>
             dispatch({
-              type: "change-name",
+              type: "change_name",
               payload: { value: e.target.value, field: "title" },
             })
           }
@@ -53,6 +58,8 @@ const PlsTitle = () => {
         +
       </Fab> */}
       </form>
+
+
     </div>
   );
 };
