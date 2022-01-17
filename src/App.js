@@ -4,7 +4,6 @@ import "./App.css";
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
 import PlsTitle from "./components/PlsTitle";
-import Title from "./components/Title";
 
 
 function App() {
